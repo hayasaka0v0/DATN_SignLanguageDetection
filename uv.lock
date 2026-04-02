@@ -307,6 +307,7 @@ name = "datn-signlanguagedetection"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "ipykernel" },
     { name = "mediapipe" },
     { name = "numpy" },
     { name = "opencv-python" },
@@ -321,6 +322,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "mediapipe", specifier = ">=0.10.33" },
     { name = "numpy", specifier = ">=2.4.4" },
     { name = "opencv-python", specifier = ">=4.13.0.92" },
