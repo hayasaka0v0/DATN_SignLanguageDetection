@@ -3,10 +3,10 @@ name = "datn-signlanguagedetection"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=7.2.0",
-    "mediapipe>=0.10.33",
+    "mediapipe==0.10.30",
     "numpy>=2.4.4",
     "opencv-python>=4.13.0.92",
     "pandas>=3.0.2",
