@@ -210,3 +210,5 @@ __marimo__/
 dataset/
 extracted_data/
 *.npy
+artifacts/
+data/splits/
